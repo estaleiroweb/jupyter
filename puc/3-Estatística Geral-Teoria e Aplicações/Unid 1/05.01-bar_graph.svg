@@ -1,0 +1,54 @@
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .axis {
+            stroke: black;
+            stroke-width: 1;
+        }
+        .bar {
+            fill: steelblue;
+        }
+        .axis-label {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            text-anchor: middle;
+        }
+        .bar-label {
+            font-family: Arial, sans-serif;
+            font-size: 10px;
+            text-anchor: middle;
+            fill: white;
+        }
+        .x-axis-label {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            text-anchor: middle;
+        }
+    </style>
+
+    <!-- Eixo Y -->
+    <line x1="50" y1="20" x2="50" y2="250" class="axis"/>
+    <!-- Eixo X -->
+    <line x1="50" y1="250" x2="450" y2="250" class="axis"/>
+    
+    <!-- Títulos dos eixos -->
+    <text x="25" y="150" transform="rotate(-90 25,150)" class="axis-label">Número de Visitas</text>
+    <text x="250" y="275" class="axis-label">Provedores</text>
+    
+    <!-- Barras -->
+    <rect x="70" y="200" width="50" height="50" class="bar"/>
+    <rect x="150" y="170" width="50" height="80" class="bar"/>
+    <rect x="230" y="220" width="50" height="30" class="bar"/>
+    <rect x="310" y="230" width="50" height="20" class="bar"/>
+
+    <!-- Rótulos das barras -->
+    <text x="95" y="230" class="bar-label">10</text>
+    <text x="175" y="200" class="bar-label">17</text>
+    <text x="255" y="220" class="bar-label">7</text>
+    <text x="335" y="230" class="bar-label">6</text>
+
+    <!-- Rótulos do eixo X -->
+    <text x="95" y="265" class="x-axis-label">A</text>
+    <text x="175" y="265" class="x-axis-label">B</text>
+    <text x="255" y="265" class="x-axis-label">C</text>
+    <text x="335" y="265" class="x-axis-label">D</text>
+</svg>
