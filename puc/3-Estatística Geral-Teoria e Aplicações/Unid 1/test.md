@@ -20,15 +20,13 @@ O valor aproximado do desvio padrão desse conjunto de tempos, em minutos, é
 Considere as seguintes variáveis:
 
 (A) idade
-(E) tempo gasto diariamente no estudo
 (B) nível de escolaridade
-(F) distância de casa à escola
 (C) sexo
-(G) local de estudo
 (D) nota na disciplina de estatística
+(E) tempo gasto diariamente no estudo
+(F) distância de casa à escola
+(G) local de estudo
 (H) número de irmãos
-
- 
 
 Das variáveis indicadas, quais são quantitativas:
 
@@ -72,11 +70,19 @@ Quando queremos verificar a questão de uma prova que apresentou maior número d
 
 (Adaptado de Anderson, 2007) Uma empresa de pesquisa apresentou dados sobre a quantidade anual de compras domésticas feitas por famílias com uma renda anual de US$75.000,00 ou mais. A tabela a seguir mostra os gastos com livros e revistas (em dólares) no ano passado de uma amostra de 25 famílias:
 
-Tabela-1.jpg
+| Gato (US$) | Frequência |
+| ---------- | ---------- |
+| 10~91      | 5          |
+| 91~172     | 5          |
+| 172~253    | 2          |
+| 253~334    | 6          |
+| 334~415    | 4          |
+| 415~496    | 3          |
+| Total      | 25         |
 
 Com base nos dados da tabela marque a alternativa INCORRETA:
 
-- [x] 12% das famílias estudadas gastaram de 415 a 496 dólares com livros e revistas no último ano. 
+- [x] 12% das famílias estudadas gastaram de 415 a 496 dólares com livros e revistas no último ano.
   > - Lembre-se que o símbolo utilizado na tabela (|- )representa intervalo aberto/fechado, ou seja, o valor que se encontra do lado direito do símbolo não está incluído no intervalo (intervalo aberto) e o valor que se encontra do lado esquerdo do intervalo está incluído no intervalo (intervalo fechado). Dessa forma:
   > - 12% das famílias estudadas gastaram de 415 a 496 dólares com livros e revistas no último ano.
   > - INCORRETA. 12% das famílias estudadas gastaram de 415 a 495 dólares com livros e revistas no último ano.
@@ -145,3 +151,46 @@ A partir do histograma construído marque a alternativa INCORRETA:
   - 24% dos gerentes de marketing analisados recebem um salário anual variando de 150 a 179 mil dólares. --> CORRETO.
   - Entre os gerentes de marketing estudados, 58% recebem um salário anual variando de 120 a 149 mil dólares. --> CORRETO.
   - 8% dos gerentes de marketing analisados recebem um salário anual inferior a 120 mil dólares. --> INCORRETO. 18% dos gerentes de marketing analisados recebem um salário anual inferior a 120 mil dólares.
+
+## Pergunta 9
+
+Num estudo de rotatividade de mão-de-obra na indústria, anotou se o número de empregados nos últimos 3 anos para 787 operários especializados e 1122 operários não especializados:
+
+
+| Nº Empregos | Frequência Não Especializados | Frequência Especializados |
+| ----------- | ----------------------------- | ------------------------- |
+| 1           | 106                           | 210                       |
+| 2           | 222                           | 342                       |
+| 3           | 338                           | 109                       |
+| 4           | 292                           | 91                        |
+| 5           | 164                           | 35                        |
+| Total       | 1122                          | 787                       |
+
+Com base nos dados das tabelas marque a alternativa INCORRETA:
+
+- [x] Os operários especializados trocam mais vezes de emprego nos últimos 3 anos do que os os operários não especializados
+- [ ] Devemos calcular as frequências relativas (%) para realizar comparações entre as 2 tabelas
+- [ ] 100% dos operários especializados trocam de 4 a 5 vezes de emprego nos últimos 3 anos
+- [ ] 59% dos operários não especializados trocam de 1 a 3 vezes de emprego nos últimos 3 anos
+
+## Pergunta 10
+
+A tabela de contingência a seguir mostra a distribuição dos casos de intoxicação e envenenamento humanos por sexo em um determinado município nos meses de dezembro/2001 e janeiro/2002.
+
+| Causa da intoxicação e envenenamento | Masculino | Fminino | Total |
+| ------------------------------------ | --------- | ------- | ----- |
+| Medicamentos                         | 13        | 18      | 31    |
+| Animais peçonhentos                  | 25        | 14      | 39    |
+| Químicos                             | 19        | 12      | 31    |
+| Produtos domésticos                  | 7         | 7       | 14    |
+| Plantas                              | 3         | 3       | 6     |
+| Intoxicações alimentares             | 2         | 1       | 3     |
+| Total                                | 69        | 55      | 124   |
+
+Com base nos dados da tabela marque a alternativa INCORRETA:
+
+- [ ] Os casos de intoxicação e envenenamento por animais peçonhentos, 64% foram em pessoas do sexo masculino
+- [ ] Entre os casos de intoxicação e envenenamento identificados, 11% foram com produtos domésticos
+- [x] Entre os casos de intoxicação e envenenamento neste cado os, 67% foram em pessoas do sexo masculino com intoxicações alimentares
+- [ ] Pessoas do sexo feminino, 33% foram intoxicadas e envenenadas por medicamentos
+
