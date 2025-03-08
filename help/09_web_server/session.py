@@ -2,7 +2,7 @@ import os
 import time
 import pickle
 from singleton import singleton
-
+from typing import Any
 
 @singleton(True)
 class Session:
@@ -23,7 +23,7 @@ class Session:
         """Get id of session."""
         return self.__id
 
-    def __call__(self, arg=None):
+    def __call__(self, arg=None)->dict|Any:
         """Get data of session. All or only `arg`."""
         return self.__data if arg == None else self.__data.get(arg)
 
