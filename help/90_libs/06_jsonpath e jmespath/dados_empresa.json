@@ -1,0 +1,10 @@
+{
+    "empresa": "Minha Startup Local",
+    "fundacao_ano": 2023,
+    "localizacao": "Contagem - MG",
+    "servicos": [
+        "Desenvolvimento Web",
+        "Consultoria de Dados"
+    ],
+    "funcionarios_ativos": 15
+}
